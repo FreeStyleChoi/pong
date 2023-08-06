@@ -1,6 +1,7 @@
 #include <SDL.h>
 #include <SDL_image.h>
 #include <stdio.h>
+#include <random>
 
 int main(int argc, char* argv[])
 {
@@ -157,7 +158,7 @@ int main(int argc, char* argv[])
 			ballRect.y = 0;
 			ballDir_x = 1;
 			ballDir_y = 1;
-			ballSpeed = 600;
+			paddleSpeed = 600;
 		}
 		if (ballRect.x >= window_w - ball_w)
 		{
@@ -166,7 +167,7 @@ int main(int argc, char* argv[])
 			ballRect.y = 0;
 			ballDir_x = 1;
 			ballDir_y = 1;
-			ballSpeed = 600;
+			paddleSpeed = 600;
 		}
 
 		/* ball collision (top&bottem) */

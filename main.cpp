@@ -1,6 +1,7 @@
 #include <SDL.h>
 #include <SDL_image.h>
 #include <stdio.h>
+#include <random>
 
 int main(int argc, char* argv[])
 {

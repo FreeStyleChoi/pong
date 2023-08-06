@@ -158,7 +158,7 @@ int main(int argc, char* argv[])
 			ballRect.y = 0;
 			ballDir_x = 1;
 			ballDir_y = 1;
-			ballSpeed = 600;
+			paddleSpeed = 600;
 		}
 		if (ballRect.x >= window_w - ball_w)
 		{
@@ -167,7 +167,7 @@ int main(int argc, char* argv[])
 			ballRect.y = 0;
 			ballDir_x = 1;
 			ballDir_y = 1;
-			ballSpeed = 600;
+			paddleSpeed = 600;
 		}
 
 		/* ball collision (top&bottem) */
